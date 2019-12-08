@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Dishes-OrderingSystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Dishes_OrderingSystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Dishes-OrderingSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Dishes-OrderingSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/gson-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" />
+        </element>
+      </element>
+      <element id="directory" name="folder">
+        <element id="dir-copy" path="$PROJECT_DIR$" />
+      </element>
+    </root>
+  </artifact>
+</component>

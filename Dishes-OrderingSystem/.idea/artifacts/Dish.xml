@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Dish">
+    <output-path>$PROJECT_DIR$/out/artifacts/Dish</output-path>
+    <root id="archive" name="Dish.war">
+      <element id="artifact" artifact-name="Dishes-OrderingSystem:war exploded" />
+    </root>
+  </artifact>
+</component>
